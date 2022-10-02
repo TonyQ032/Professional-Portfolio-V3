@@ -34,6 +34,19 @@ a:hover {
   transition: all 0.5s ease-in-out;
 }
 
+.school-name {
+  font-size: 1.25rem;
+}
+
+.ed-container {
+  margin-bottom: 1.5rem;
+}
+
+.ed-container p {
+  margin: 0;
+  font-style: italic;
+}
+
 .p-r {
   position: relative;
 }
