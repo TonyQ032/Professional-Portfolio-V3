@@ -13,56 +13,25 @@ body {
   color: #4e4e4e;
 }
 
-/* form inquiries */
-.inquiries {
-  background-color: rgb(255, 255, 255);
-  padding: 4rem 2.8rem 2.8rem 2.8rem;
-}
+/* Form CSS */
 
-#message {
-  resize: none;
-  min-height: 3rem;
-}
-
-/* form subtitle */
-#sub-title {
-  font-size: 1.7rem;
-  text-align: center;
-}
-
-/* form styling */
-.inquiries form {
+#form {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  padding: 1rem;
   gap: 1rem;
 }
 
-/* questions input styling */
-.questions-input {
-  padding: 0.5rem;
-  border-radius: 8px;
+#form input,
+#form textarea {
+  border-radius: .5rem;
+  padding: .5rem;
+  width: 100%;
   outline: none;
 }
 
-/* form message styling */
-#contactMessage {
-  resize: none;
-  min-height: 140px;
-}
-
-/* form styling */
-.inquiries .btn-container {
-  padding: 0;
-}
-
-/* form styling button */
-.inquiries .btn-container button {
-  padding: 0.5rem;
-}
-
-/* send button styling */
-#contactSend {
+#form button {
   transition: all 0.3s ease;
   border-radius: 10px;
   width: 50% !important;
@@ -70,27 +39,27 @@ body {
   color: #fff;
   align-self: center;
   text-align: center;
-  background: #0062d3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: #2a78ff;
+  padding: .5rem;
 }
 
-#contactSend:hover {
+#form textarea {
+  height: 150px;
+}
+
+#form button:hover {
   background: #4c9ef2;
 }
 
-/* form button container */
-.btn-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Sweet Alert */
+
+.swal2-styled.swal2-confirm {
+  background-color: #2a78ff !important;
+  transition: 200ms;
 }
 
-/* form button styling */
-#formBtn {
-  color: #fff;
-  text-decoration: none;
+.swal2-styled.swal2-confirm:hover {
+  background-color: #4c9ef2 !important;
 }
 
 h1,
