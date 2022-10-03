@@ -1160,8 +1160,7 @@ a:hover {
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 1rem;
   border-bottom: 1px solid #eee;
 }
 
