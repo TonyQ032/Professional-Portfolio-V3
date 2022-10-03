@@ -949,6 +949,15 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about-info p {
+  margin-bottom: .5rem;
+}
+
+.about-info a {
+  text-decoration: underline;
+  color: blue;
+}
+
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
